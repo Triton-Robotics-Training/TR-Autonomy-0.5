@@ -1,4 +1,4 @@
-# TR-CV-0.5
+# TR-CV-0.5 (NOT REQUIRED)
 
 This is an intermediate assignment to get you to understand how the ROS2 build tools work.
 
