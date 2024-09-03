@@ -1,4 +1,4 @@
-# TR-CV-0.5 (NOT REQUIRED)
+# TR-Autonomy-0.5 (NOT REQUIRED)
 
 [![CV Training Resources](https://img.shields.io/badge/CV-%20Training%20Resources-eac817?labelColor=2a77a2&style=for-the-badge)](https://github.com/Triton-Robotics-Training/TR-CV-0/blob/main/resources.md)
 
