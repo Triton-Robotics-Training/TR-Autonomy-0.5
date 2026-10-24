@@ -1,0 +1,541 @@
+[0.004s] Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim
+[0.033s] -- The C compiler identification is GNU 11.4.0
+[0.061s] -- The CXX compiler identification is GNU 11.4.0
+[0.065s] -- Detecting C compiler ABI info
+[0.101s] -- Detecting C compiler ABI info - done
+[0.105s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.105s] -- Detecting C compile features
+[0.105s] -- Detecting C compile features - done
+[0.106s] -- Detecting CXX compiler ABI info
+[0.150s] -- Detecting CXX compiler ABI info - done
+[0.154s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.154s] -- Detecting CXX compile features
+[0.154s] -- Detecting CXX compile features - done
+[0.155s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.234s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.276s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.277s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.292s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.294s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.298s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.335s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.351s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.352s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.406s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.419s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.441s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.444s] -- Looking for pthread.h
+[0.495s] -- Looking for pthread.h - found
+[0.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.542s] -- Found Threads: TRUE  
+[0.563s] -- Found rclcpp_action: 16.0.21 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.579s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.585s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[0.753s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.949s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.044s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.045s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.062s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.062s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.062s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.080s] -- Found PythonExtra: .so  
+[1.158s] -- Configuring done
+[1.190s] -- Generating done
+[1.200s] -- Build files have been written to: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim
+[1.207s] Invoked command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim
+[1.208s] Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim -- -j8 -l8
+[1.231s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.237s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.239s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.245s] [  3%] Built target ament_cmake_python_copy_turtlesim
+[1.354s] running egg_info
+[1.355s] creating turtlesim.egg-info
+[1.355s] writing turtlesim.egg-info/PKG-INFO
+[1.355s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[1.355s] writing top-level names to turtlesim.egg-info/top_level.txt
+[1.355s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[1.355s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[1.356s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[1.372s] [  3%] Built target ament_cmake_python_build_turtlesim_egg
+[1.447s] [  3%] Built target turtlesim__rs
+[1.706s] [  4%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o[0m
+[1.706s] [  5%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o[0m
+[1.708s] [  6%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o[0m
+[1.711s] [  7%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o[0m
+[1.714s] [  8%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o[0m
+[1.715s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o[0m
+[1.716s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o[0m
+[1.746s] [ 11%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o[0m
+[1.757s] [ 11%] Built target turtlesim__cpp
+[1.762s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.763s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.764s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.780s] [ 15%] [32m[1mLinking C shared library libturtlesim__rosidl_generator_c.so[0m
+[1.805s] [ 15%] Built target turtlesim__rosidl_generator_c
+[1.812s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.813s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.813s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.066s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o[0m
+[2.070s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o[0m
+[2.071s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[2.134s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[2.164s] [ 23%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o[0m
+[2.184s] [ 24%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o[0m
+[2.191s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o[0m
+[2.213s] [ 26%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o[0m
+[2.230s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o[0m
+[2.248s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[2.274s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o[0m
+[2.298s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o[0m
+[2.299s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[2.302s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o[0m
+[2.313s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[2.322s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[2.349s] [ 35%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so[0m
+[2.386s] [ 35%] Built target turtlesim__rosidl_typesupport_c
+[2.404s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o[0m
+[2.426s] [ 37%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o[0m
+[2.462s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o[0m
+[2.465s] [ 39%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o[0m
+[2.466s] [ 40%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o[0m
+[2.470s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o[0m
+[2.487s] [ 42%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o[0m
+[2.494s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[2.506s] [ 44%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o[0m
+[2.536s] [ 45%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o[0m
+[2.559s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[2.567s] [ 47%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[2.570s] [ 48%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o[0m
+[2.600s] [ 49%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o[0m
+[2.619s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o[0m
+[2.631s] [ 51%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o[0m
+[2.662s] [ 52%] [32m[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so[0m
+[2.700s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[2.701s] [ 53%] Built target turtlesim__rosidl_typesupport_introspection_c
+[2.702s] [ 54%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o[0m
+[2.710s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o[0m
+[2.754s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o[0m
+[2.798s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o[0m
+[2.801s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o[0m
+[2.834s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o[0m
+[2.850s] [ 60%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so[0m
+[2.862s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o[0m
+[2.877s] [ 61%] Built target turtlesim__rosidl_typesupport_cpp
+[2.881s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o[0m
+[2.912s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o[0m
+[2.975s] [ 64%] [34m[1mGenerating include/turtlesim/moc_turtle_frame.cpp[0m
+[3.009s] [ 65%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[3.033s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o[0m
+[3.061s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o[0m
+[3.079s] [ 68%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o[0m
+[3.092s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[3.099s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o[0m
+[3.118s] [ 71%] [32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o[0m
+[3.216s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o[0m
+[3.271s] [ 73%] [32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o[0m
+[3.284s] [ 74%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so[0m
+[3.302s] [ 75%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.348s] [ 75%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[3.352s] [ 76%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[3.374s] [ 76%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[3.385s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o[0m
+[3.584s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o[0m
+[3.739s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o[0m
+[3.940s] [ 80%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so[0m
+[4.037s] [ 80%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[4.054s] [ 80%] Built target turtlesim
+[4.075s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.531s] [ 81%] Built target turtlesim__py
+[5.549s] [ 83%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o[0m
+[5.550s] [ 83%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o[0m
+[5.635s] [ 84%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o[0m
+[5.674s] [ 85%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o[0m
+[5.694s] [ 86%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o[0m
+[5.738s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o[0m
+[5.767s] [ 88%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o[0m
+[5.835s] [ 89%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o[0m
+[5.920s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so[0m
+[5.964s] [ 90%] Built target turtlesim__rosidl_generator_py
+[5.983s] [ 92%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.984s] [ 92%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.115s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.124s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.157s] [ 94%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[6.165s] [ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[6.175s] [ 95%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o[0m
+[6.307s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.341s] [ 96%] Built target turtlesim__rosidl_typesupport_c__pyext
+[6.574s] [ 97%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[6.742s] [ 97%] Built target turtle_teleop_key
+[8.940s] [ 98%] [32m[1mLinking CXX executable mimic[0m
+[9.221s] [ 98%] Built target mimic
+[10.023s] [ 99%] [32m[1mLinking CXX executable draw_square[0m
+[10.290s] [ 99%] Built target draw_square
+[11.132s] [100%] [32m[1mLinking CXX executable turtlesim_node[0m
+[12.244s] [100%] Built target turtlesim_node
+[12.252s] Invoked command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim -- -j8 -l8
+[12.253s] Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim
+[12.258s] -- Install configuration: ""
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg
+[12.258s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[12.259s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/environment/library_path.sh
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[12.260s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[12.261s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""
+[12.261s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim
+[12.261s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action
+[12.261s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[12.261s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.261s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[12.261s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv
+[12.261s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[12.261s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[12.262s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""
+[12.262s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim
+[12.262s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[12.262s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[12.262s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[12.262s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[12.262s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.263s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[12.263s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[12.263s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp
+[12.264s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim
+[12.264s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action
+[12.264s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[12.264s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[12.265s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg
+[12.265s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.265s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv
+[12.265s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[12.265s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[12.265s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.266s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim
+[12.266s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action
+[12.266s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[12.266s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.266s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[12.266s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv
+[12.266s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[12.266s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[12.267s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[12.267s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[12.267s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[12.267s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[12.267s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""
+[12.267s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[12.267s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""
+[12.267s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim
+[12.267s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action
+[12.267s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[12.267s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[12.267s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[12.267s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg
+[12.268s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[12.268s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv
+[12.268s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[12.268s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""
+[12.268s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[12.268s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/dependency_links.txt
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/PKG-INFO
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/top_level.txt
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/SOURCES.txt
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[12.269s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[12.270s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[12.299s] Listing '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...
+[12.299s] Listing '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...
+[12.299s] Listing '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...
+[12.299s] Listing '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...
+[12.299s] Compiling '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...
+[12.301s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.302s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.302s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.302s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[12.302s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/lib.rs
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/srv.rs
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/action.rs
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/action
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/action/rmw.rs
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/msg.rs
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/msg
+[12.302s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/msg/rmw.rs
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/srv
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/src/srv/rmw.rs
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/Cargo.toml
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/rust/build.rs
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/msg/Color.idl
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/msg/Pose.idl
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/Kill.idl
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/msg/Color.msg
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/msg/Pose.msg
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/Kill.srv
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[12.303s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[12.304s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[12.304s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[12.304s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[12.304s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[12.304s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[12.304s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[12.304s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[12.304s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/turtlesim/turtlesim_node
+[12.307s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[12.307s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[12.308s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[12.308s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/turtlesim/draw_square
+[12.309s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/turtlesim/draw_square" to ""
+[12.309s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/turtlesim/mimic
+[12.310s] -- Set runtime path of "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/lib/turtlesim/mimic" to ""
+[12.310s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images
+[12.310s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images/rolling.png
+[12.310s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images/ardent.png
+[12.310s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images/crystal.png
+[12.310s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images/dashing.png
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images/galactic.png
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images/bouncy.png
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images/eloquent.png
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images/humble.png
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/images/foxy.png
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/launch
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/environment/path.sh
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/environment/path.dsv
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/local_setup.bash
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/local_setup.sh
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/local_setup.zsh
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/local_setup.dsv
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/package.dsv
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[12.311s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[12.312s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.313s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.313s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[12.313s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[12.313s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[12.313s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/turtlesim/share/turtlesim/package.xml
+[12.314s] Invoked command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim

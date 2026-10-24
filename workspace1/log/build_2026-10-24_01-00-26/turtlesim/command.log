@@ -1,0 +1,1 @@
+Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/turtlesim -- -j8 -l8

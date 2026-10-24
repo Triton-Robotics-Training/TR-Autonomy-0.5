@@ -1,0 +1,294 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0c784a3ce23eb33d7857.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						20,
+						21,
+						22
+					]
+				},
+				{
+					"build" : "turtlesim__py",
+					"jsonFile" : "directory-turtlesim__py-e64d14fff719f0302be2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/turtlesim__py",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "turtlesim__rs",
+					"jsonFile" : "directory-turtlesim__rs-9e5845b7b4e0c386a32b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/turtlesim__rs",
+					"targetIndexes" : 
+					[
+						19
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "turtlesim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turtlesim_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turtlesim_egg-43967152f6a85701b905.json",
+					"name" : "ament_cmake_python_build_turtlesim_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_turtlesim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_turtlesim-f48a14d7bf8ff257f58f.json",
+					"name" : "ament_cmake_python_copy_turtlesim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "draw_square::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-draw_square-050f6c192bd8a7a995d7.json",
+					"name" : "draw_square",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimic-ff78358586a42ab3b660.json",
+					"name" : "mimic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_teleop_key::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_teleop_key-f118e84b40312cf65e99.json",
+					"name" : "turtle_teleop_key",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim-164d9ec68ca5b9a2ac40.json",
+					"name" : "turtlesim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__cpp-6174ac85b995c7a2b8a6.json",
+					"name" : "turtlesim__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turtlesim__py::@d8187568aea548440e45",
+					"jsonFile" : "target-turtlesim__py-557890b8005f094bc71b.json",
+					"name" : "turtlesim__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_generator_c-e4ef89f04115f5e79579.json",
+					"name" : "turtlesim__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_generator_py-2d6d8b319ab555c55ee0.json",
+					"name" : "turtlesim__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_c-1ce097719fcf3253bb34.json",
+					"name" : "turtlesim__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_c__pyext-ca031292fc91429f0056.json",
+					"name" : "turtlesim__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_cpp-0aacb512dd1843b6a820.json",
+					"name" : "turtlesim__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_fastrtps_c-cd38642eb1da86bcd89f.json",
+					"name" : "turtlesim__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_fastrtps_c__pyext-0788b17334a0b062a73b.json",
+					"name" : "turtlesim__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_fastrtps_cpp-1bd3805f0a652a3fe0bd.json",
+					"name" : "turtlesim__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_introspection_c-603f4930a338dfa147d0.json",
+					"name" : "turtlesim__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_introspection_c__pyext-d9956cd3a2cdcec74237.json",
+					"name" : "turtlesim__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_introspection_cpp-77b246c0086a5666f814.json",
+					"name" : "turtlesim__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "turtlesim__rs::@dab73f5c8cdde16e09d2",
+					"jsonFile" : "target-turtlesim__rs-ce7f8eb67ed0948d7968.json",
+					"name" : "turtlesim__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_node-eaa36057277a2f28a8a7.json",
+					"name" : "turtlesim_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_uninstall-0414122961403f9a9024.json",
+					"name" : "turtlesim_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dcc26dd70b4ca0f8419f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim",
+		"source" : "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

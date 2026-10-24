@@ -1,0 +1,23 @@
+[0.006s] Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_github': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_github -- -j8 -l8
+[0.026s] [35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[0.038s] [100%] Built target my_node
+[0.052s] Invoked command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_github' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_github -- -j8 -l8
+[0.061s] Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_github': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_github
+[0.066s] -- Install configuration: ""
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/lib/my_github/my_node
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/ament_index/resource_index/package_run_dependencies/my_github
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/ament_index/resource_index/parent_prefix_path/my_github
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/environment/ament_prefix_path.sh
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/environment/ament_prefix_path.dsv
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/environment/path.sh
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/environment/path.dsv
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/local_setup.bash
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/local_setup.sh
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/local_setup.zsh
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/local_setup.dsv
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/package.dsv
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/ament_index/resource_index/packages/my_github
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/cmake/my_githubConfig.cmake
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/cmake/my_githubConfig-version.cmake
+[0.067s] -- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/package.xml
+[0.070s] Invoked command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_github' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_github

@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[100%] Built target my_node
+-- Install configuration: ""
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/lib/my_github/my_node
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/ament_index/resource_index/package_run_dependencies/my_github
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/ament_index/resource_index/parent_prefix_path/my_github
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/environment/path.sh
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/environment/path.dsv
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/local_setup.bash
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/local_setup.sh
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/local_setup.zsh
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/local_setup.dsv
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/package.dsv
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/ament_index/resource_index/packages/my_github
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/cmake/my_githubConfig.cmake
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/cmake/my_githubConfig-version.cmake
+-- Up-to-date: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_github/share/my_github/package.xml

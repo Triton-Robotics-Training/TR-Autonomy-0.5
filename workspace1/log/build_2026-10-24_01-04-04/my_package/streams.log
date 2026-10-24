@@ -1,0 +1,51 @@
+[0.005s] Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/my_package -DCMAKE_INSTALL_PREFIX=/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.133s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.134s] -- Detecting C compile features
+[0.134s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.183s] -- Detecting CXX compiler ABI info - done
+[0.188s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.188s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.191s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.267s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.313s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.354s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.354s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/my_package/include>
+[0.354s] -- Configured cppcheck exclude dirs and/or files: 
+[0.354s] -- Added test 'lint_cmake' to check CMake code style
+[0.355s] -- Added test 'uncrustify' to check C / C++ code style
+[0.355s] -- Configured uncrustify additional arguments: 
+[0.355s] -- Added test 'xmllint' to check XML markup files
+[0.355s] -- Configuring done
+[0.357s] -- Generating done
+[0.358s] -- Build files have been written to: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package
+[0.363s] Invoked command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/my_package -DCMAKE_INSTALL_PREFIX=/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package
+[0.364s] Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package -- -j8 -l8
+[0.393s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[0.407s] [100%] [32m[1mLinking CXX executable my_node[0m
+[0.434s] [100%] Built target my_node
+[0.439s] Invoked command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package -- -j8 -l8
+[0.440s] Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package
+[0.445s] -- Install configuration: ""
+[0.445s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/lib/my_package/my_node
+[0.445s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.445s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.445s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.445s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/environment/path.sh
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/environment/path.dsv
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/local_setup.bash
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/local_setup.sh
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/local_setup.zsh
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/local_setup.dsv
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/package.dsv
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.446s] -- Installing: /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/package.xml
+[0.447s] Invoked command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/my_package

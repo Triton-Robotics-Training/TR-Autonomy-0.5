@@ -1,0 +1,8 @@
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

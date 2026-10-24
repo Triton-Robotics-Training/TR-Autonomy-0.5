@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

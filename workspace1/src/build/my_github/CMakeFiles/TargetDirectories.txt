@@ -1,0 +1,10 @@
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/uninstall.dir
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/my_github_uninstall.dir
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/my_node.dir
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/test.dir
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/edit_cache.dir
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/rebuild_cache.dir
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/list_install_components.dir
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/install.dir
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/install/local.dir
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/build/my_github/CMakeFiles/install/strip.dir

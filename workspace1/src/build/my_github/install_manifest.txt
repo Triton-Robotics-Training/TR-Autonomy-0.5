@@ -1,0 +1,16 @@
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/lib/my_github/my_node
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/ament_index/resource_index/package_run_dependencies/my_github
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/ament_index/resource_index/parent_prefix_path/my_github
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/environment/ament_prefix_path.sh
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/environment/ament_prefix_path.dsv
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/environment/path.sh
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/environment/path.dsv
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/local_setup.bash
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/local_setup.sh
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/local_setup.zsh
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/local_setup.dsv
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/package.dsv
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/ament_index/resource_index/packages/my_github
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/cmake/my_githubConfig.cmake
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/cmake/my_githubConfig-version.cmake
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/src/install/my_github/share/my_github/package.xml

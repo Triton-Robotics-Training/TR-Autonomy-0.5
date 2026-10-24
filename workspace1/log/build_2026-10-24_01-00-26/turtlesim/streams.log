@@ -1,0 +1,43 @@
+[0.006s] Invoking command in '/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/build/turtlesim -- -j8 -l8
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[0.048s] [  1%] Built target turtlesim__rs
+[0.050s] [  2%] Built target turtlesim__cpp
+[0.050s] [ 12%] Built target turtlesim__rosidl_generator_c
+[0.060s] [ 12%] Built target ament_cmake_python_copy_turtlesim
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[0.075s] [ 22%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.076s] [ 32%] Built target turtlesim__rosidl_typesupport_c
+[0.076s] [ 42%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.077s] [ 52%] Built target turtlesim__rosidl_typesupport_cpp
+[0.077s] [ 62%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.078s] [ 72%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[0.091s] [ 73%] [32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o[0m
+[0.092s] [ 73%] Built target turtlesim
+[0.092s] [ 75%] Built target turtle_teleop_key
+[0.093s] [ 77%] Built target draw_square
+[0.097s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[0.099s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[0.107s] [ 80%] Built target turtlesim__py
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py[0m
+[0.128s] [ 89%] Built target turtlesim__rosidl_generator_py
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext[0m
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext[0m
+[0.147s] [ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.147s] [ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.147s] [ 95%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.181s] running egg_info
+[0.181s] writing turtlesim.egg-info/PKG-INFO
+[0.181s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.181s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.182s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.183s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.198s] [ 95%] Built target ament_cmake_python_build_turtlesim_egg

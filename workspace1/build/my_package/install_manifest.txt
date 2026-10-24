@@ -1,0 +1,16 @@
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/lib/my_package/my_node
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/environment/ament_prefix_path.sh
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/environment/path.sh
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/environment/path.dsv
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/local_setup.bash
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/local_setup.sh
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/local_setup.zsh
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/local_setup.dsv
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/package.dsv
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/ament_index/resource_index/packages/my_package
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+/home/sloth/Documents/trainings/TR-Autonomy-0.5-Evelyn-Wyszynski/workspace1/install/my_package/share/my_package/package.xml
